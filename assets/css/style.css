@@ -1,0 +1,99 @@
+/*Orange: #ff9900
+Blue: #007aaf
+Header/Footer Blue: #232f3e*/
+body{
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+}
+.secondary-background{
+  background-color: #ff9900
+}
+.blue{
+  background-color: #007aaf;
+}
+.primary-background{
+  background-color: #232f3e;
+}
+.wht-text{
+  color: #fff;
+}
+.orange-text{
+  color: #ff9900
+}
+.gray-text{
+  color: #999;
+}
+
+/*HEADER*/
+
+header{
+  line-height: 100px;
+  background-color: #232f3e;
+  overflow: auto;
+  padding: 20px 40px;
+  box-sizing:content-box;
+}
+header img{
+  float: left;
+  vertical-align: middle;
+}
+header button{
+  float: right;
+  vertical-align: middle;
+}
+
+/*MAIN*/
+div[class*="col-"]{
+  float:left;
+  box-sizing:border-box;
+}
+h1{
+  text-align: center;
+  color: #ff9900;
+}
+.section-header{
+  border-bottom: 0.5px solid #999;
+}
+.cart{
+}
+.section-header h4{ 
+  color:#999;
+  clear:both;
+}
+.product{
+  overflow:auto;
+  border-bottom: 0.5px solid #999;
+}
+.prod-desc a{
+  color:#007aff;
+}
+.prod-desc p a{
+  font-size:18px;
+}
+.prod-desc h4{
+  display:inline;
+  color:red;
+}
+.price h3{
+  color:red;
+  margin:300 0;
+}
+.total p{
+  float:right;
+}
+.total span{
+  color:red;
+  font-weight:bold;
+}
+footer {
+  text-align:center;
+  padding:25px;
+}
+footer img{
+  width:10%;
+}
+footer p{
+  font-size:10px;
+  margin-bottom:0;
+}
